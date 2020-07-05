@@ -10,7 +10,9 @@ import org.bukkit.inventory.meta.ItemMeta;
  * @author RadBuilder
  */
 public class ItemGlower implements IItemGlower {
-
+/**
+item de enchant.
+*/
     public ItemStack glow(ItemStack item) {
         ItemMeta itemMeta = item.getItemMeta();
         itemMeta.addEnchant(Enchantment.ARROW_DAMAGE, 1, true);
